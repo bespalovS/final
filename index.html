@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>News Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Новостной портал</h1>
+    <div class="filters">
+      <input id="search" type="text" placeholder="Поиск по статьям…" />
+      <select id="category">
+        <option value="">Все категории</option>
+        <option value="business">Бизнес</option>
+        <option value="technology">Технологии</option>
+        <option value="sports">Спорт</option>
+        <option value="health">Здоровье</option>
+        <option value="science">Наука</option>
+        <option value="entertainment">Развлечения</option>
+      </select>
+      <input id="date" type="date" />
+    </div>
+  </header>
+
+  <main id="news"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
